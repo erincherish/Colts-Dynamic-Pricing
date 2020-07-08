@@ -16,7 +16,7 @@ unsold_inv <- dbGetQuery(con, "select * from 2017_2019_Unsold_Inventory")
 primary <- dbGetQuery(con, "select * from 2020_Purdue_Project_Primary")
 
 getwd()
-setwd("/home/chen1614/ColtsProject")
+setwd()
 
 # We cleaned this dataset using Python, please refer to Python code
 secondary <- read.csv('secondary_new.csv')
